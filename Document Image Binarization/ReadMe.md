@@ -1,4 +1,5 @@
 # Document Image Binarization
+This project was done under the guidance of [Prof J Jennifer Ranjani](https://www.bits-pilani.ac.in/pilani/jenniferranjani/profile)
 Binarization refers to the conversion of a grayscale image into a Black and white image. In this project we wish to convert a convert an image of a document into the Binarized form.
 This can be modelled as an image segmentation problem where we want to classify each pixel as either text or background. We first convert the document image to grayscale and then 
 pass it through our network to segment out the text from the background. 
